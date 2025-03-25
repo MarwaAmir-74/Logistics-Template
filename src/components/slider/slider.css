@@ -1,0 +1,289 @@
+#col{
+    padding: 0;
+}
+#Container .carousel-control-next {
+    right: 0;
+    height: 10vw;
+    margin-top: 20vw;
+    margin-left: -10vw;
+}
+#Container .carousel-control-prev {
+    right: 0;
+    height: 10vw;
+    margin-top: 20vw;
+    margin-left: -3vw;
+}
+#Container    [data-bs-theme=dark] .carousel .carousel-control-next-icon,#Container  [data-bs-theme=dark] .carousel .carousel-control-prev-icon, #Container [data-bs-theme=dark].carousel .carousel-control-next-icon,#Container  [data-bs-theme=dark].carousel .carousel-control-prev-icon {
+    filter: none;
+}
+#Container [data-bs-theme=dark] .carousel .carousel-control-next-icon,#Container  [data-bs-theme=dark] .carousel .carousel-control-prev-icon,#Container  [data-bs-theme=dark].carousel .carousel-control-next-icon,  #Container  [data-bs-theme=dark].carousel .carousel-control-prev-icon {
+    filter: none;
+}
+#Container [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target],#Container  [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    background-color: #000;
+    display: none;
+}
+
+.title-of-carsoul {
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+.title-of-carsoul-3 {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+
+.btn-of-carsoul{
+    background: transparent;
+    transition: background-color 0.3s linear;
+    border: none;
+    border-radius: 0px;
+    padding: 1vw;
+    width: 170px;
+    margin: 1vw;
+
+}
+.btn-of-carsoul:hover{
+  background-color: rgb(255, 0, 0);
+  border: #fff solid 1px;
+  border-radius: 0px;
+}
+.Container-of-carsoul{
+    background-image: url(./../../images/download-min.jpg);
+    max-width: 750px;
+    padding: 4%;
+    color: white;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35vw;
+    line-height: 50px;
+}
+
+#Container.carousel-item img {
+    object-fit: cover; 
+    height: 100%; 
+}
+
+#con-of-third-carsoul{
+    background-image: url(./../../images/download-min.jpg);
+    max-width: 750px;
+    padding: 2vw;
+    color: white;
+    text-align: left;
+    margin-left: -8vw;
+    margin-top: -35vw;
+}
+#Container.carousel-item {
+    min-height: 600px; 
+}
+@media(min-width:450px) and (max-width: 1300px) {
+    #Container .carousel-item {
+      height: 800px; 
+    }
+}
+@media(min-width:1024px){
+    .Container-of-carsoul{
+        margin-left: 25vw;
+    }
+}
+@media(max-width:1315px){
+    .title-of-carsoul-3 {
+        line-height: 67px;
+    }
+    #con-of-third-carsoul {
+        margin-left: -6vw;
+    }
+    .Container-of-carsoul {
+        margin-left: 25vw;
+    }
+}
+@media(max-width:1470px){
+    .Container-of-carsoul{
+        margin-left: 21vw;
+    }
+}
+@media(max-width:1380px){
+    .Container-of-carsoul{
+        margin-left: 18vw;
+    }
+}
+@media(max-width:1300px){
+    #Container .carousel-control-prev,
+    #Container .carousel-control-next {
+    margin-top: 25vw;
+    }
+    #con-of-third-carsoul ,
+    .Container-of-carsoul {
+        margin-top: -40vw;
+    }
+    .Container-of-carsoul{
+        margin-left: 14vw;
+    }
+}
+@media(max-width:1200px){
+    #con-of-third-carsoul {
+        margin-top: -40vw;
+    }
+    .Container-of-carsoul {
+        margin-top: -40vw;
+        margin-left: 20vw;
+    }
+    #Container .carousel-control-prev,
+    #Container .carousel-control-next {
+        margin-top: 30vw;
+    }
+    .Container-of-carsoul{
+        margin-left: 5vw;
+    }
+}
+@media(max-width:1100px){
+    .Container-of-carsoul {
+        margin-left: 4vw;
+    }
+}
+@media(max-width:1000px){
+    .Container-of-carsoul {
+        margin-left: 1vw;
+        margin-top: -45vw;
+    }
+    #con-of-third-carsoul {
+        margin-top: -50vw;
+    }
+    #Container .carousel-control-prev,
+    #Container .carousel-control-next {
+        margin-top: 35vw;
+    }
+}
+@media(max-width:950px){
+    .Container-of-carsoul {
+        margin-top: -50vw;
+        margin-left: 1vw;
+
+    }
+    #con-of-third-carsoul {
+        margin-top: -50vw;
+        margin-left: -2vw;
+    }
+    #Container .carousel-control-prev,
+    #Container .carousel-control-next {
+        margin-top: 40vw;
+    }
+}
+@media(max-width:850px){
+    .Container-of-carsoul {
+        margin-top: -60vw;
+    }
+    #con-of-third-carsoul {
+        margin-top: -60vw;
+    }
+}
+@media(max-width:800px){
+    .Container-of-carsoul {
+        margin-top: -70vw;
+    }
+    #con-of-third-carsoul {
+        margin-top: -70vw;
+        margin-left: -5vw;
+        width: 80vw;
+    }
+}
+@media(max-width:750px){
+    #Container .carousel-control-prev,
+    #Container .carousel-control-next {
+        margin-top: 50vw;
+    }
+    .title-of-carsoul,
+    .title-of-carsoul-3 {
+        font-size: 45px;
+        line-height: 75px;
+    }
+    #con-of-third-carsoul {
+        margin-left: -8vw;
+    }
+}
+@media(max-width:700px){
+    .Container-of-carsoul ,
+    #con-of-third-carsoul{
+        margin-top: -80vw;
+    }
+}
+@media(max-width:650px){
+    .title-of-carsoul ,
+    .title-of-carsoul-3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    #Container .carousel-control-prev,
+    #Container .carousel-control-next {
+        margin-top: -90vw;
+    }
+    .title-of-carsoul {
+        font-size: 40px;
+        font-weight: bolder;
+        line-height: 50px;
+    }
+}
+@media(max-width:600px){
+    .title-of-carsoul ,
+    .title-of-carsoul-3 {
+        line-height: 55px;
+    }
+    .Container-of-carsoul ,
+    #con-of-third-carsoul{
+        margin-top: -90vw;
+    }
+}
+@media(max-width:500px){
+    .title-of-carsoul ,
+    .title-of-carsoul-3 {
+        line-height: 50px;
+        margin-bottom: 35px;
+    }
+    .Container-of-carsoul ,
+    #con-of-third-carsoul{
+        margin-top: -100vw;
+    }
+}
+
+@media (max-width: 449px) {
+    .title-of-carsoul ,
+    .title-of-carsoul-3 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #Container .carousel-item {
+        height: 600px; 
+    }
+}
+@media (max-width: 400px) {
+    #Container .carousel-control-next 
+    ,#Container .carousel-control-prev {
+        display: none;
+    }
+    .title-of-carsoul, .title-of-carsoul-3 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .h4-of-carsoul{
+        font-size: 19px;
+        font-weight: 400;
+    }
+}
+@media (max-width: 350px) {
+    .title-of-carsoul, .title-of-carsoul-3 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 300px) {
+    .title-of-carsoul, .title-of-carsoul-3 {
+        font-size: 25px;
+    }
+    .h4-of-carsoul{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,157 @@
+
+.Container-Blog h1{
+    text-align: center;
+    margin-top: -15vw;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 44px;
+}
+#hr_Blog {
+    margin-top: 14vw;
+}
+@media(max-width:1000px){
+    .Container-Blog h1{
+        margin-top: -19vw;
+    }
+    #hr_Blog {
+        margin-top: 17vw;
+    }
+    
+}
+@media(max-width:900px){
+    .Container-Blog h1{
+        margin-top: -23vw;
+    }
+    #hr_Blog {
+        margin-top: 23vw;
+    }
+}
+@media(max-width:750px){
+    .Container-Blog h1{
+        margin-top: -25vw;
+    }
+    #hr_Blog {
+        margin-top: 22vw;
+    }
+}
+@media(max-width:650px){
+    .Container-Blog h1{
+        margin-top: -30vw;
+    }
+    #hr_Blog {
+        margin-top: 27vw;
+    }
+}
+@media(max-width:500px){
+    .Container-Blog h1{
+        margin-top: -35vw;
+    }
+    #hr_Blog {
+        margin-top: 30vw;
+    }
+}
+@media(max-width:400px){
+    .Container-Blog h1{
+        margin-top: -50vw;
+    }
+    #hr_Blog {
+        margin-top: 40vw;
+    }
+}
+.Container-Blog {
+    /* margin-bottom: 10px; */
+}
+
+.Blog_Row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.blog-card {
+    padding: 0;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.Blog_Card-Img {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* عشان الصورة تغطي الـ div بدون تشويه */
+    transition: transform 0.3s ease-in-out; /* إضافة transition للتكبير */
+}
+
+.blog-card a {
+    color: red !important;
+    cursor: pointer;
+}
+
+/* التأثير الجديد باستخدام overlay مع تكبير */
+.image-wrapper {
+    position: relative;
+    display: block;
+    overflow: hidden; /* عشان الصورة لما تتكبّر ما تطلعش برا */
+}
+
+.image-wrapper:hover .Blog_Card-Img {
+    transform: scale(1.1); /* تكبير الصورة بنسبة 10% */
+}
+
+.image-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0c1239; /* اللون الغامق */
+    opacity: 0; /* مخفي في البداية */
+    transition: opacity 0.3s ease-in-out; /* إضافة transition للـ opacity */
+    pointer-events: none;
+}
+
+.image-wrapper:hover::after {
+    opacity: 0.5; /* ظهور الـ overlay لما نعمل hover */
+}
+
+@media(max-width:1353px) {
+    .blog-card {
+        width: 30rem !important;
+    }
+}
+
+@media(max-width:1001px) {
+    .blog-card {
+        width: 25rem !important;
+    }
+}
+
+@media(max-width:842px) {
+    .blog-card {
+        width: 94% !important;
+    }
+}
+
+
+.entry-time {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    padding: 8px 0;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.entry-time span {
+    display: block;
+    line-height: 1.2;
+}

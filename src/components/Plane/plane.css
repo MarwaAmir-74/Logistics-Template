@@ -1,0 +1,63 @@
+#Container_p{
+    background-image: url(./../../images/plane-min.jpg);
+    height: 30vw;
+    min-height: fit-content;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: clamp(50px, 4vw,24px);
+    font-weight: 700;
+    padding-top:6vw ;
+}
+@media(max-width:1200px){
+    #Container_p{
+        height: 40vw;
+    }
+}
+#Container_p h2{
+    font-size:50px;
+    padding: 0px 17vw;
+}
+@media(min-width:1270px){
+    #second_row{
+    margin: 0 180px;
+}
+}
+#second_row{
+    justify-content: center;
+}
+
+@media(max-width:992px){
+    #Container_p h2{
+    padding: 0px 10vw;
+  }
+  #Container_p {
+    padding-bottom: 30px;
+}
+}
+
+@media(max-width:575px){
+    #Container_p h2{
+    font-size:44px;
+    padding: 0px ;
+
+    }
+}
+#Container_p h6{
+    background-color: red;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+
+@media(min-width:990px){
+    #Container_p h6 {
+    width: fit-content;
+    margin: 0 auto;
+}
+}
+@media(min-width:350px){
+    #Container_p h2 {
+        font-size: 38px;
+    }
+}

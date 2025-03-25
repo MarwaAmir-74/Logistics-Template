@@ -1,0 +1,39 @@
+#Container_w #Col {
+    padding: 2vw;
+    border: solid #d1cdca 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Container_w #icon {
+    height: 60px;
+    margin-bottom: 10px;
+}
+#Container_w #Container:nth-child(1){
+    margin-top: 30px;
+    text-align: center;
+}
+#Container_w h4{
+    font-size: 40px;
+    text-align: center;
+}
+#Container_w p{
+    text-align: center;
+}
+#Container_w #span_border{
+    border-bottom: 4px solid red;
+}
+#Container_w #Col{
+    padding: 2vw;
+    border: solid #d1cdca 1px;
+}
+#Container_w h6 ,h5{
+    text-align: center;
+}
+#Container_w{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+

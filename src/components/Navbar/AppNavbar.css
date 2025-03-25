@@ -1,0 +1,213 @@
+.offcanvas.hiding, .offcanvas.show, .offcanvas.showing  {
+    max-width: 270px !important;
+    padding-left: 10px !important;
+}
+#containerNavbar {
+    position: fixed;
+    z-index: 1000;
+    transition:  margin-top 0.3s ease-in-out;
+    padding: 10px 0;
+}
+.bg-light {
+    background-color: transparent !important;   
+}
+#containerNavbar .dropdown-hover{
+    margin: 0  15px;
+}
+#containerNavbar .btn{
+    background-color: red;
+    border-radius: 0;
+    padding: 10px 30px;
+    color: white;
+}
+#contactLink{
+    color: white;
+    text-decoration: none;
+    margin: auto 25px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-scrolled {
+    margin-top: -60px !important;
+    transition: margin-top 0.3s ease-in-out ;
+    background-color: white !important;
+}
+.navbar-scrolled .navbar-nav .nav-link {
+    color: black !important;   
+}
+
+.navbar-scrolled #contactLink{
+    color: black;
+} 
+#AppNavbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+#containerNavbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+#containerNavbar .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#containerNavbar .navbar-brand {
+    margin-right: auto;
+}
+
+#containerNavbar.navbar-toggler {
+    margin-left: auto; 
+}
+@media(max-width:1298px){
+    #containerNavbar .btn{
+        padding: 10px 10px;
+    }
+    #containerNavbar .navbar-nav {
+        gap: 10px;
+    }
+    #containerNavbar .dropdown-hover {
+        margin: 0 10px;
+    }
+}
+@media(max-width:1140px){
+    #containerNavbar .dropdown-hover {
+        margin: 0 6px;
+    }
+    #containerNavbar .btn{
+        padding: 1px 1vw;
+    }
+    #contactLink {
+        color: white;
+        text-decoration: none;
+        margin: auto 15px;
+    }
+    #containerNavbar .navbar-nav {
+        gap: 5px;
+    } 
+}
+@media(max-width:1080px){
+    #containerNavbar .btn{
+        padding: 1px 1vw;
+    }
+    #contactLink {
+        color: white;
+        text-decoration: none;
+        margin: auto 10px;
+    }
+    #containerNavbar .dropdown-hover {
+        margin: 0 0px;
+    }
+}
+.dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 0%;
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color:  rgba(12, 18, 57, 0.9) !important;
+    color: white !important;
+}
+.dropdown-hover:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border-radius: 0;
+}
+@media(min-width:1550px){
+    #logo{
+        margin-left: 180px;
+    }
+}
+@media(max-width:1401px){
+    #containerNavbar{
+        margin-top: 0px !important;
+        padding: 10px 0;
+    }
+}
+@media(max-width:991px){
+    #containerNavbar{
+        margin-top: 0px !important;
+        padding: 10px 0;
+    }
+    #contactLink{
+        color: #160f09;
+        margin: 0 !important;
+    }
+    #AppNavbar-Btn {
+    color: #fff !important;
+    border: 0;
+    outline: none;
+    background-color: #ff0000 !important;
+    width: fit-content;
+    border-radius: 0 !important;
+    margin:20px auto;
+    padding: 10px 30px;
+    font-size: 18px;
+    }
+    #containerNavbar.btn:hover {
+        color: #fff;
+        background-color: #ff0000;
+    }
+}
+@media(max-width:400px){
+    #containerNavbar #logo{
+        width: 210px;
+    }
+}
+@media(max-width:350px){
+    #containerNavbar #logo{
+        width: 180px;
+    }
+}
+@media(max-width:300px){
+    #containerNavbar #logo{
+        width: 160px;
+    }
+}
+#logo{
+    transition: all 0.3s ease-in-out;
+}
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #ff0000;
+    color: #ff0000;
+    font-size: 30px;
+    background-color: #160f09;
+    transition: 0.5s;
+    z-index: 999;
+}
+  
+#scroll-to-top-btn:hover {
+    background-color: darkred;
+}
+@media(max-width:700px){
+    #scroll-to-top-btn {
+        right: 20px;
+    }
+}
+@media(max-width:500px){
+    #scroll-to-top-btn {
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+}

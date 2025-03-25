@@ -1,0 +1,146 @@
+
+#containerO h1{
+      text-align: center;
+      margin-top: -15vw;
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 44px;
+}
+@media(max-width:970px){
+      #containerO h1{
+          margin-top: -21vw;
+      }
+}
+@media(max-width:700px){
+      #containerO h1{
+          margin-top: -36vw;
+      }
+}
+@media(max-width:450px){
+      #containerO h1{
+          margin-top: -50vw;
+      }
+}
+#row-o-3 {
+background-color: #f7f7f7;
+margin-top:150px ;
+margin: 0;
+margin-bottom: 150px;
+}
+#row-o-3 col{
+      text-align: right;
+}
+@media(min-width:1400px){
+      .firstrow{
+            margin: 40px 180px ;
+      }     
+}
+@media(max-width:1399px){
+.firstrow{
+      margin: 40px 0 ;
+}     
+}
+@media(max-width:1050px){
+      .firstrow{
+            margin: 40px 0 ;
+      }     
+}
+@media(min-width:550px){
+      .p_h4_right{
+      text-align: right;
+      }
+}
+@media(max-width:550px){
+      .Span_Icon {
+            margin-left: -20px !important;
+      }
+}
+@media(max-width:410px){
+      .Span_Icon{
+            margin: 0 0  !important;
+      }
+}
+.p_left{
+      margin-left: 80px;
+}
+.ochanCard{
+ padding: 0;  
+ border-radius: 0;   
+}
+.ochanCardImg{
+      border-radius: 0;
+      min-height: 265px;
+}
+#row-o-2{
+      gap: 50px;
+      justify-content: center;
+      background-color: white;
+      padding-top: 250px;
+      margin: 0;
+      padding-bottom: 100px;
+}
+
+#containerO h2{
+      text-align: center;
+      font-size: 25px;
+}
+#row-o-3 #span {
+      background-color: red;
+      height: 1px;
+      width: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      margin:20px auto;
+}
+#row-o-3 p{
+      margin-bottom: 10px ;
+}
+.Span_Icon{
+      background-color: white;
+      display: flex;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      float: right;
+      margin: 0 25px;
+      transition: all 0.3s ease-in-out;
+      
+}
+.Span_Icon:hover {
+      background-color: #ff0000;
+      color: white;
+}
+.Icon_O:hover {
+      color: white;
+}
+.Icon_O{
+      width: 32px;
+    height: 50px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+
+}
+.Ocean_h6{
+      color: #ff0000;
+      text-align: center;
+      font-size: 13px;
+}
+.card_title{
+      text-align: center;
+      font-weight: 500;      
+}
+ul{
+      padding-top: 20px;
+}
+ul li {
+      padding-bottom: 10px;
+}
+@media(max-width:800px){
+      .ochanCard{
+            width: 90% !important;
+      }
+}
+.cardText{
+ color: #808080;
+}

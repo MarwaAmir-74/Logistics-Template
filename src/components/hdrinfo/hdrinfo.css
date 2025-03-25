@@ -1,0 +1,39 @@
+#Navbar{
+    background-color  :rgba(12, 18, 57, 0.9) !important;
+    color: white;
+    text-decoration: none;
+ }
+ .Dropdown{
+     text-decoration: none;
+     color: white;
+ }
+.social-icon{
+     margin-left: 30px;
+     transition: color 0.3s ease-in-out;
+ }
+ #nav_icon{
+     left: 60px;
+     padding-top: 10px;
+     position: relative;
+ }
+.social-icon:hover{
+    color: red;
+}
+.nav{   
+     padding-top: 5px;
+     padding-left: 70px;
+ }
+ #contactIcon{
+     margin-right: 10px;
+     margin-top: 5px;
+     color: red;
+ }
+ .bluerow{
+     text-decoration: none;
+ }
+ @media(max-width:1400px){
+     #container{
+         display: none;
+     }
+ }
+  

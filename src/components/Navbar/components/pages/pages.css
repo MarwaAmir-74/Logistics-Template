@@ -1,0 +1,497 @@
+#Prices_container_hr{
+    margin-top: -4vw;
+}
+.Card_1_3 ,.Card_2{
+    border: none;
+}
+.number{
+    font-size: 120px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.month{
+    position: relative;
+    color: gray;
+    font-style: italic;
+    font-weight: 400;
+}
+.cardHeader_2 .month{
+    color: white;
+}
+.currency{
+    left: 30px;
+    position: relative;
+    bottom: 70px;
+    color: gray;
+}
+.cardHeader_2 .currency{
+    color: white;
+}
+.Row_Card hr{
+    padding:5px 0px ;
+}
+.cardHeader_1_3{
+    background-color:#0c1239 ;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 17.5%;
+    padding-left: 17.5%;
+    font-size: 19px;
+}
+
+.cardHeader_2{
+    background-color:red ;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 17.5%;
+    padding-left: 17.5%;
+    font-size: 19px;
+}
+
+.cardHeader_1_3 h3,
+.cardHeader_2 h3{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top:20px;
+}
+.month {
+    font-size: 15px;
+}
+.description{
+    color: gray;
+    margin-top: -10px;
+    border: none ;
+}
+.description_2{
+    color: white;
+    margin-top: -10px;
+    border: none ;
+}
+.price{
+    margin-top: -40px;
+}
+.price-2-3{
+    margin-top: -40px;
+}
+@media(max-width:1178px){
+    .price-2-3{
+        margin-left: -40px;
+    }
+}
+@media(max-width:1109px){
+    .cardHeader_2 ,.cardHeader_1_3{
+        padding: 0 3%;
+    }
+}
+.features{
+    text-align: center;
+    padding-top: 15px;
+}
+.features_2{
+    border: red 2px solid;
+    text-align: center;
+    padding-top: 15px;
+}
+@media (max-width:1570px) {
+    .Row_Card {
+        margin-top: 260px;
+        margin-right: -160px;
+        margin-left: -160px;
+    }
+}
+@media (max-width: 1499px) {
+    .Row_Card {
+        margin-top: 260px;
+        margin-right: -193px;
+        margin-left: -190px;
+    }
+}
+@media (max-width:1120px) {
+    .currency{
+        left: 10px;
+    }
+}
+.features p ,
+.features_2 p{
+    padding: 15px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.btn1_3{
+    border: 2px solid #f4f4f4;
+    background-color: transparent;
+    color: #222;
+    border: none;
+    border-radius: 0;
+    margin: 30px 0;
+    padding: 20px 50px;
+}
+.btn1_3:hover{
+    background-color: red;
+}
+#btn_2{
+    background-color: red;
+    border: 2px solid #f4f4f4;
+    color: white;
+    border: none;
+    border-radius: 0;
+    margin: 30px 0;
+    padding: 20px 50px;
+}
+.Card_1_3:hover .btn1_3{
+    background-color: red;
+    color: white;
+}
+.Card_1_3:hover .cardHeader_1_3{
+    background-color: red;
+}
+.Card_1_3:hover .month,
+.Card_1_3:hover .number,
+.Card_1_3:hover .currency,
+.Card_1_3:hover .description  {
+    color: white;
+}
+.Card_1_3 .cardHeader_1_3 {
+    transition: all 0.3s ease-in-out;
+}
+
+.Row_Card {
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    display: flex;
+    justify-content: center; 
+}
+@media(min-width:1500px){
+    .Row_Card {
+        margin-top: 300px;  
+    }
+}
+@media(max-width:1499px){
+    .Row_Card {
+        margin-top: 260px;  
+    }
+}
+@media(max-width:1300px){
+    .Row_Card {
+        margin-top: 220px;  
+    }
+    .Card_1_3,.Card_2{
+        width: 21rem !important;
+    }
+    .cardHeader_1_3,
+    .cardHeader_2 {
+        padding-right: 13%;
+        padding-left: 13%;
+    }
+    .Row_Card {
+        margin-right: -170px;
+        margin-left: -170px;
+    }
+}
+@media(max-width:1150px){
+    .Row_Card {
+        margin-top: 200px;  
+    }
+}
+@media(max-width:1070px) and (min-width:992px){
+    .Card_1_3,.Card_2{
+        width: 17rem !important;
+    }
+    .Row_Card {
+        margin-right: -130px;
+        margin-left: -130px;
+    }
+}
+@media(max-width:1069px) and (min-width:991px){
+    .currency {
+        left: 30px;
+    }
+}
+@media(max-width:960px) and (min-width:800px){
+    .Row_Card {
+        margin-top: 180px;  
+    }
+}
+@media(max-width:991px){
+    .Row_Card {
+        margin-right: -90px;
+        margin-left: -90px;
+    }
+    .Card_1_3,.Card_2{
+        width: 100% !important;
+    }
+    .CardCol{
+        margin:20px 0 ;
+    }
+}
+@media (max-width:800px){
+    .Row_Card {
+        margin-top: 160px;  
+    }
+    .Row_Card {
+        margin-right: -80px;
+        margin-left: -80px;
+    }
+}
+@media (max-width:780px){
+    .Row_Card {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media(max-width:699px){
+    .Row_Card {
+        margin-top: 240px;  
+    }
+}
+@media(max-width:630px){
+    .Row_Card {
+        margin-top: 200px;  
+    }
+}
+@media(max-width:530px){
+    .Row_Card {
+        margin-top: 170px;  
+    }
+}
+@media(max-width:449px){
+    .Row_Card {
+        margin-top: 200px;  
+    }
+}
+@media(max-width:390px){
+    .Row_Card {
+        margin-top: 160px;  
+    }
+}
+
+.Testimonials_img h1{
+    text-align: center;
+    margin-top: -15vw;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 44px;
+}
+#Prices_img h1{
+    text-align: center;
+    margin-top: -15vw;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+@media(max-width:970px){
+    #Prices_img h1{
+        margin-top: -21vw;
+    }
+}
+@media(max-width:700px){
+    #Prices_img h1{
+        margin-top: -36vw;
+    }
+}
+@media(max-width:450px){  
+    #Prices_img h1{
+        margin-top: -50vw;
+    }
+}
+@media(max-width:1149px){
+    #Prices_container_hr {
+        margin-top: -1vw;
+    }
+}
+@media(max-width:1050px){
+    #Prices_container_hr {
+        margin-top: -3vw;
+    }
+}
+
+
+
+
+
+
+
+.Testimonials_Row{
+    margin: 50px 0;
+}
+.Testimonials_Col {
+    border: #f4f4f4 3px solid;
+}
+.Testimonials_Col p{           
+    font-style: italic;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: gray;
+}
+.Testimonials_Col h4{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+.Testimonials_Col h5{
+    text-align: left ;
+    font-weight: 400;
+    color: red;
+}
+.doubleQuote_icon {
+    color: #f4f4f4;
+    width: 70px;
+    height: 70px;
+    border:#f4f4f4 1px solid;
+    border-radius: 50%;
+}
+.stars_div{
+    position: relative;
+    top: -50px;
+    left: 130px;
+    border: 2px #f4f4f4 solid;
+    width: 180px;
+    border-radius: 50px;
+}
+.Stars_icon{
+    margin:  8px;
+    color: gold;
+}
+.Testimonials_Col .text {
+    margin-left: 140px;
+}
+.Testimonials_Col{
+    margin: auto;
+    padding: 40px 50px;
+}
+#Testimonials #main-row{
+    margin-top: 250px;
+}
+@media(max-width:1420px){
+    #Testimonials #main-row{
+    margin-top: 200px;
+}
+}
+@media (max-width: 1300px) {
+    #Testimonials #main-row {
+        margin-top: 180px;
+    }
+}
+@media (max-width: 1150px) {
+    #Testimonials #main-row {
+        margin-top: 150px;
+    }
+}
+@media (max-width: 950px) {
+    #Testimonials #main-row {
+        margin-top: 170px;
+    }
+    #Testimonials h1{
+        margin-top: -22vw;
+    }
+}
+@media (max-width: 850px) {
+    #Testimonials #main-row {
+        margin-top: 150px;
+    }
+}
+@media (max-width: 750px) {
+    #Testimonials #main-row {
+        margin-top: 180px;
+    }
+    #Testimonials h1{
+        margin-top: -29vw;
+    }
+}
+@media (max-width: 600px) {
+    #Testimonials #main-row {
+        margin-top: 140px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 500px) {
+    #Testimonials #main-row {
+        margin-top: 180px;
+    }
+    #Testimonials h1{
+        margin-top: -43vw;
+    }
+
+}
+@media (max-width: 450px) {
+    #Testimonials h1{
+        margin-top: -50vw;
+    }
+    .Testimonials_Col {
+        padding: 30px 10px;
+    }
+    .stars_div {
+        width: 145px;
+    }
+    .Stars_icon {
+        margin: 6px;
+    }
+    .Testimonials_Col p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 390px) {
+    #Testimonials h1{
+        margin-top: -55vw;
+    }
+    .stars_div {
+        left: 120px;
+    }
+    .Testimonials_Col p {
+        font-size: 20px;
+    }
+    .Testimonials_Col .text {
+        margin-left: 120px;
+    }
+    .Testimonials_Col {
+        padding: 20px 10px;
+    }
+    .Testimonials_Row {
+        margin: 30px 0;
+    }
+}
+@media (max-width: 350px) {
+    .stars_div {
+        left: 90px;
+    }
+    .Testimonials_Col p {
+        font-size: 20px;
+    }
+    .Testimonials_Col .text {
+        margin-left: 90px;
+    }
+}
+@media (max-width: 320px) {
+    #Testimonials h1{
+        font-size: 35px; 
+        margin-top: -65vw;
+   }
+   .Stars_icon {
+    margin: 4px;
+    }
+    .doubleQuote_icon {
+        width: 60px;
+        height: 60px;
+    }
+    .Testimonials_Col .text {
+        margin-left: 80px;
+    }
+    .stars_div {
+        left: 80px;
+        width: 125px;
+    }
+}
+@media (max-width: 300px) {
+    #Testimonials h1{
+        
+    }
+}
